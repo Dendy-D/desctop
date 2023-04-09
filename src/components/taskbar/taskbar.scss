@@ -1,0 +1,38 @@
+.app__header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 36px;
+    background: rgba(9, 8, 8, 0.79);
+    color: #F5F0F0;
+    .header {
+        &__panel {
+            display: flex;
+            align-items: center;
+            column-gap: 32px;
+        }
+        // &__time {
+        //     animation: timeAnimation 1s infinite;
+        // }
+    }
+}
+
+// @keyframes timeAnimation {
+//     0% {
+//         opacity: 1;
+//     }
+//     25% {
+//         opacity: 0.8;
+//     }
+//     50% {
+//         opacity: 0.5;
+//     }
+//     75% {
+//         opacity: 0.8;
+//     }
+//     100% {
+//         opacity: 1;
+//     }
+// }

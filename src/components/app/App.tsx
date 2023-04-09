@@ -1,10 +1,13 @@
 import React from 'react';
+
+import TaskBar from '../taskbar/Taskbar'
+
 import './App.scss';
 
 function App() {
   return (
     <div className="App">
-        <div>H1 !</div>
+        <TaskBar/>
     </div>
   );
 }

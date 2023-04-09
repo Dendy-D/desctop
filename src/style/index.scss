@@ -22,6 +22,7 @@ footer, header, nav, section, main{
 
 body{
     line-height: 1;
+    background-color: #51A2BB;
 }
 
 ol, ul{
@@ -30,6 +31,20 @@ ol, ul{
 
 blockquote, q{
     quotes: none;
+}
+
+button {
+    outline: none;
+    border: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+    &:hover {
+        text-decoration: none;
+        color: inherit;
+    }
 }
 
 blockquote:before, blockquote:after, q:before, q:after{
@@ -49,4 +64,9 @@ input{
 
 #root {
     height: 100vh;
+}
+
+.App {
+    margin: 0 auto;
+    position: relative;
 }

@@ -1,0 +1,16 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #F5F0F0;
+  font-size: 36px;
+  font-weight: 700;
+  padding: 16px;
+  background: rgba(9, 8, 8, 0.79);
+}
+
+.panel {
+  display: flex;
+  align-items: center;
+  column-gap: 32px;
+}

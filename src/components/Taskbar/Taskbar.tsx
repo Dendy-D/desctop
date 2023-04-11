@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react';
 
 import classes from './taskbar.module.scss';
-import battery from '../../assets/icons/battery.svg';
-import sun from '../../assets/icons/sun.svg';
-import moon from '../../assets/icons/moon.svg';
+import battery from '../../assets/icons/taskbar/battery.svg';
+import sun from '../../assets/icons/taskbar/sun.svg';
+import moon from '../../assets/icons/taskbar/moon.svg';
 
 const TaskBar: React.FC = () => {
   const [time, setTime] = useState(new Date().toLocaleTimeString()

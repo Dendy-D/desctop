@@ -1,0 +1,51 @@
+.desktop {
+  position: relative;
+  width: 150px;
+  height: 150px;
+  margin: 0 auto;
+}
+
+.container {
+  position: absolute;
+  top: 50px;
+  left: 50px;
+  cursor: pointer;
+
+  &:focus {
+    background-color: rgba(275, 275, 275, 0.3);
+
+    .descr {
+      background-color: transparent;
+    }
+  }
+
+  &:hover {
+    .descr {
+      color: #fff;
+      background-color: #060607;
+    }
+  }
+
+  &:active {
+    background-color: rgba(275, 275, 275, 0.3);
+
+    .descr {
+      background-color: transparent;
+    }
+  }
+}
+
+.label {
+  width: 60px;
+  height: 60px;
+  margin: 0 auto;
+  background: url(../../assets/icons/labels/trashcan.svg) no-repeat center center/contain;
+}
+
+.descr {
+  display: inline-block;
+  text-align: center;
+  max-width: 100%;
+  font-size: 20px;
+  padding: 0 5px;
+}
